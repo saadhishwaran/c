@@ -2,11 +2,7 @@
 
 int power_m(int x,int m){
     if (x==0) return 0;
-    if (m==0){
-        printf("not defined");
-        return 0;
-    }
-    return x * power_m(x,m);
+    return x * power_m(x,m-1);
 }
 
 int main(){
