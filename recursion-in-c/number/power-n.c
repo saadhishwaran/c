@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<math.h>
 
 int power_m(int x,int m){
     if (x==0) return 0;
