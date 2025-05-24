@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 int power_m(int x,int m){
-    if (x==0) return 0;
-    return x * power_m(x,m-1);
+    if (x==0) return 1;
+    return m * power_m(x-1,m);
 }
 
 int main(){
