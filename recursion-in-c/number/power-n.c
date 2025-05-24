@@ -11,6 +11,5 @@ int main(){
     scanf("%d",&x);
     printf("enter a no for base : ");
     scanf("%d",&m);
-    int n = power_m(x,m);
-    printf("%d",n);
+    printf("%d",  power_m(x,m));
 }
