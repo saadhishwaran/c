@@ -7,7 +7,7 @@ void reverse( char str[], int i){
     printf("%c", str[i]);
 }
 void main(){
-    char str[] = "hello";
+    char str[] = "palindronmd";
     reverse(str, 0);
-    
+
 }
