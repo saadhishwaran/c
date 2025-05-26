@@ -12,10 +12,10 @@ int comparestr(char str1[], char str2[],int index){
 int main(){
     char str1[6] ;
     printf("enter str1");
-    scanf("%s",&str1);
+    scanf("%s",str1);
     char str2[6] ;
     printf("enter str2");
-    scanf("%s",&str2);
+    scanf("%s",str2);
     int n = comparestr(str1,str2,0);
     if (n==1) printf("equal");
     if (n==0) printf("unequal");
