@@ -23,7 +23,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     
-    int x = evenno(arr,0);
+    int x = evenno(arr,n);
     printf("The value is %d", x);
     
     return 0;

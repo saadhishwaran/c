@@ -13,6 +13,6 @@ int main(){
     for (int i;i<x;i++){
         scanf("%d",&arr[i]);
     }
-    int m = negno(arr,0);
+    int m = negno(arr,x);
     printf("the op is %d",m);
 }
