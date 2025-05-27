@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int evenno(int arr[],int n)
+int evenno(int arr[],int a)
 {
-    if (arr[n-1] % 2 == 0) {
-        return 1 + evenno(arr, n-1);
+    if (arr[a-1] % 2 == 0) {
+        return 1 + evenno(arr, a-1);
     }
     
     else {
-        return evenno(arr, n-1);
+        return evenno(arr, a-1);
     }
 }
 
@@ -23,7 +23,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     
-    int x = evenno(arr,n);
+    int x = evenno(arr,0);
     printf("The value is %d", x);
     
     return 0;
