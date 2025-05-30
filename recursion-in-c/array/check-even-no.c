@@ -1,11 +1,14 @@
 #include <stdio.h>
 
+
 int evenno(int arr[],int a)
 {
+    if (a == 0) {
+        return 0;
+    }
     if (arr[a-1] % 2 == 0) {
         return 1 + evenno(arr, a-1);
     }
-    
     else {
         return evenno(arr, a-1);
     }
