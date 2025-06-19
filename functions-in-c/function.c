@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int arth(){
     int  a,b;
     printf("enter no a : ");
@@ -12,6 +13,7 @@ int arth(){
     printf("%d %d %d %d",c,d,e,f);
     return 0;
 }
+
 int assign(){
     int a,b;
     printf("enter a :");
@@ -25,6 +27,7 @@ int assign(){
     printf("%d %d %d %d", c,d,e,f);
     return 0;
 }
+
 int logic(){
     int a,b;
     printf("enter a ");
@@ -35,6 +38,7 @@ int logic(){
     printf("%d",c);
     return 0;
 }
+
 int calc(){
     int a, b;
     char op;
@@ -72,6 +76,7 @@ int calc(){
     }
     return 0;
 }
+
 int main(){
     int x;
     printf("enter a value (1-arth,2-assign,3-logic,4-clac)");
