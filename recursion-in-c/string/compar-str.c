@@ -3,7 +3,7 @@
 int comparestr(char str1[], char str2[],int index){
     if(str1[index] != str2[index]) 
         return 0;
-    // if (str1[index] == str2[index]) return 1;
+    if (str1[index] == str2[index]) return 1;
     if(str1[index]=='\0'&&str2[index]=='\0') 
         return 1;
     return comparestr(str1,str2,index +1);

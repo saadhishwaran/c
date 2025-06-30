@@ -11,6 +11,6 @@ int main(){
     printf("enter a str to value ");
     scanf("%s",str);
     int n = lenstr(str,0);
-    // if (n==0) 
+    //if (n==0) 
     printf("the len of str is %d", n);
 }
