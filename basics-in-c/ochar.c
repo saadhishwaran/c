@@ -2,5 +2,6 @@
 void main(){
     printf("enter :");
     char x = getchar();
-    putchar(x);
+    // putchar(x);
+    printf(" %s",x);
 }    
